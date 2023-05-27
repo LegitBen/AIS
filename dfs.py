@@ -7,7 +7,7 @@ def dfs(graph, start):
 
         if vertex not in visited:
             visited.add(vertex)  # Посещаем вершину
-            print(vertex)
+            print(vertex, distance)
 
             # Добавляем непосещенные соседние вершины с учетом расстояния в стек
             neighbors = graph[vertex]
