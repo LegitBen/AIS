@@ -23,5 +23,4 @@ graph = {
     4: [(2, 3)]
 }
 
-print("test")
 dfs(graph, 1)
