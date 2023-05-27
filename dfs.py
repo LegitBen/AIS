@@ -14,6 +14,7 @@ def dfs(graph, start):
             for neighbor, step in neighbors:
                 if neighbor not in visited:
                     stack.append((neighbor, distance + step))
+                    #patch1
 
 graph = {
     1: [(3, 2)],
@@ -22,4 +23,5 @@ graph = {
     4: [(2, 3)]
 }
 
+print("test")
 dfs(graph, 1)
